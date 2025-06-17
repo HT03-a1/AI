@@ -24,14 +24,5 @@ Mục tiêu của đồ án này là tối ưu hóa hoạt động giao hàng nh
 
 ## Cài đặt và sử dụng
 ```bash
-$ git clone https://github.com/VuBacktracking/AI-Project-GA-Algorithm-VRP.git
-```
-**Yêu cầu thư viện** \
-Để sử dụng, bạn cần cài đặt các thư viện sau:
-
-- Python (phiên bản 3.8 trở lên)
-- PyQt6 (phiên bản 6.5.0 trở lên)
-- Folium (phiên bản 0.12.0 trở lên)
-```bash
-$ pip install -r requirements.txt
+$ git clone https://github.com/HT03-a1/AI.git
 ```
