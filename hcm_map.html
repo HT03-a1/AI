@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8c5c8cad87aa771038bdd76aa6d93c88 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8c5c8cad87aa771038bdd76aa6d93c88" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8c5c8cad87aa771038bdd76aa6d93c88 = L.map(
+                "map_8c5c8cad87aa771038bdd76aa6d93c88",
+                {
+                    center: [10.7674978, 106.6363691],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a9c69e9245be141401a9760cc336923a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a9c69e9245be141401a9760cc336923a.addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            tile_layer_a9c69e9245be141401a9760cc336923a.addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var marker_ba939e8ab01a67d2ddc26ef396f60e27 = L.marker(
+                [10.7613700421297, 106.66834],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_45d55de797409fb4b0b6401a72d5b252 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac0ca1dcfc3d4cdc01d5a21f4f8eeb59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38432c40c81ea1bd3df24cd4f6950df6 = $(`<div id="html_38432c40c81ea1bd3df24cd4f6950df6" style="width: 100.0%; height: 100.0%;">UEH - Cơ sở B 279 Đ. Nguyễn Tri Phương, Phường 5, Quận 10</div>`)[0];
+                popup_ac0ca1dcfc3d4cdc01d5a21f4f8eeb59.setContent(html_38432c40c81ea1bd3df24cd4f6950df6);
+            
+        
+
+        marker_ba939e8ab01a67d2ddc26ef396f60e27.bindPopup(popup_ac0ca1dcfc3d4cdc01d5a21f4f8eeb59)
+        ;
+
+        
+    
+    
+                marker_ba939e8ab01a67d2ddc26ef396f60e27.setIcon(icon_45d55de797409fb4b0b6401a72d5b252);
+            
+    
+            var marker_1666fafa6df40bc04e90bd889223926a = L.marker(
+                [10.8170712, 106.6608354],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_5b40a3dc772011a19a78619c09594f8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3222eed27f8eb50f5fa76ace6126b7ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b83d45e52a74031cd4491c03f88227a = $(`<div id="html_7b83d45e52a74031cd4491c03f88227a" style="width: 100.0%; height: 100.0%;">Sân bay Tân Sơn Nhất Trường Sơn, Phường 2, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</div>`)[0];
+                popup_3222eed27f8eb50f5fa76ace6126b7ba.setContent(html_7b83d45e52a74031cd4491c03f88227a);
+            
+        
+
+        marker_1666fafa6df40bc04e90bd889223926a.bindPopup(popup_3222eed27f8eb50f5fa76ace6126b7ba)
+        ;
+
+        
+    
+    
+                marker_1666fafa6df40bc04e90bd889223926a.setIcon(icon_5b40a3dc772011a19a78619c09594f8b);
+            
+    
+            var marker_d96151a487232dc193504ebd3df933d5 = L.marker(
+                [10.8307172982182, 106.67299],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_fec8b89c800bed24da007eb226030fd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ed2309a9dceaac29939d54fc9b1310a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c13cc5828b3bb8475b95105ec3a9c0ec = $(`<div id="html_c13cc5828b3bb8475b95105ec3a9c0ec" style="width: 100.0%; height: 100.0%;">Vincom Plaza Quang Trung</div>`)[0];
+                popup_6ed2309a9dceaac29939d54fc9b1310a.setContent(html_c13cc5828b3bb8475b95105ec3a9c0ec);
+            
+        
+
+        marker_d96151a487232dc193504ebd3df933d5.bindPopup(popup_6ed2309a9dceaac29939d54fc9b1310a)
+        ;
+
+        
+    
+    
+                marker_d96151a487232dc193504ebd3df933d5.setIcon(icon_fec8b89c800bed24da007eb226030fd5);
+            
+    
+            var marker_e41525a32641231ddc296eed8ebc6968 = L.marker(
+                [10.8504326716799, 106.65294],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_102e811136d1f1e676dba08cfb690d7b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c771929ef6ccbae603a4d46b08291475 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6303ea253b419abf7d33ee393d350ad8 = $(`<div id="html_6303ea253b419abf7d33ee393d350ad8" style="width: 100.0%; height: 100.0%;">Chợ Thạch Đà</div>`)[0];
+                popup_c771929ef6ccbae603a4d46b08291475.setContent(html_6303ea253b419abf7d33ee393d350ad8);
+            
+        
+
+        marker_e41525a32641231ddc296eed8ebc6968.bindPopup(popup_c771929ef6ccbae603a4d46b08291475)
+        ;
+
+        
+    
+    
+                marker_e41525a32641231ddc296eed8ebc6968.setIcon(icon_102e811136d1f1e676dba08cfb690d7b);
+            
+    
+            var marker_061fa08afa7eba430497534cac6dab21 = L.marker(
+                [10.8593785221043, 106.70492],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_9d987fa7baefb3af9ccbfd48dd2bd84f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f72d45eee6c5737a0c4215278e86b5b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7ccbe46bd57f24d34c69660b855b944 = $(`<div id="html_c7ccbe46bd57f24d34c69660b855b944" style="width: 100.0%; height: 100.0%;">Khu dân cư bảo phú</div>`)[0];
+                popup_f72d45eee6c5737a0c4215278e86b5b1.setContent(html_c7ccbe46bd57f24d34c69660b855b944);
+            
+        
+
+        marker_061fa08afa7eba430497534cac6dab21.bindPopup(popup_f72d45eee6c5737a0c4215278e86b5b1)
+        ;
+
+        
+    
+    
+                marker_061fa08afa7eba430497534cac6dab21.setIcon(icon_9d987fa7baefb3af9ccbfd48dd2bd84f);
+            
+    
+            var marker_e8c00c0b619473b0ec522cb1d152e6de = L.marker(
+                [10.8433082002047, 106.71186],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_e617fd306d91d6e6a3ff9f29b998ac03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b33c7303846b55898b4511d5bf9f1dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_420fd3274c33db0c543f10cbdfc1a973 = $(`<div id="html_420fd3274c33db0c543f10cbdfc1a973" style="width: 100.0%; height: 100.0%;">VAN PHUC CITY</div>`)[0];
+                popup_0b33c7303846b55898b4511d5bf9f1dd.setContent(html_420fd3274c33db0c543f10cbdfc1a973);
+            
+        
+
+        marker_e8c00c0b619473b0ec522cb1d152e6de.bindPopup(popup_0b33c7303846b55898b4511d5bf9f1dd)
+        ;
+
+        
+    
+    
+                marker_e8c00c0b619473b0ec522cb1d152e6de.setIcon(icon_e617fd306d91d6e6a3ff9f29b998ac03);
+            
+    
+            var marker_8fc49253b95b55b15bafc761f032dc34 = L.marker(
+                [10.8282805591494, 106.71395],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_f4102c76c6d2064ecf84207137c1d9ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58dbd28ed413caaeb15df4787634d320 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ae7cf8b14f574a5a5bbe81b163e014a = $(`<div id="html_6ae7cf8b14f574a5a5bbe81b163e014a" style="width: 100.0%; height: 100.0%;">Mitsubishi ISAMCO</div>`)[0];
+                popup_58dbd28ed413caaeb15df4787634d320.setContent(html_6ae7cf8b14f574a5a5bbe81b163e014a);
+            
+        
+
+        marker_8fc49253b95b55b15bafc761f032dc34.bindPopup(popup_58dbd28ed413caaeb15df4787634d320)
+        ;
+
+        
+    
+    
+                marker_8fc49253b95b55b15bafc761f032dc34.setIcon(icon_f4102c76c6d2064ecf84207137c1d9ce);
+            
+    
+            var marker_dd71f05cc288547cbf9c4e095794deda = L.marker(
+                [10.8016985059417, 106.69881],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_a230dde0be2758de15a82784d47acab9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b069ddddb99d128dea2cb6ea66730d97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebba136902eabc4d76e22c8b09757896 = $(`<div id="html_ebba136902eabc4d76e22c8b09757896" style="width: 100.0%; height: 100.0%;">Chợ Bà Chiểu</div>`)[0];
+                popup_b069ddddb99d128dea2cb6ea66730d97.setContent(html_ebba136902eabc4d76e22c8b09757896);
+            
+        
+
+        marker_dd71f05cc288547cbf9c4e095794deda.bindPopup(popup_b069ddddb99d128dea2cb6ea66730d97)
+        ;
+
+        
+    
+    
+                marker_dd71f05cc288547cbf9c4e095794deda.setIcon(icon_a230dde0be2758de15a82784d47acab9);
+            
+    
+            var marker_5687aa002122c3c88951d9a30de38546 = L.marker(
+                [10.7810096897944, 106.69456],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_577098b95cc5b38cc461951277f1f08c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af4c0341c78f2d002d8fb21a62569b2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dccdd4af0ed4fec0ec54da0320595534 = $(`<div id="html_dccdd4af0ed4fec0ec54da0320595534" style="width: 100.0%; height: 100.0%;">Chung cư Sài Gòn Mansion 3 Võ Văn Tần, Phường 6, Quận 3</div>`)[0];
+                popup_af4c0341c78f2d002d8fb21a62569b2a.setContent(html_dccdd4af0ed4fec0ec54da0320595534);
+            
+        
+
+        marker_5687aa002122c3c88951d9a30de38546.bindPopup(popup_af4c0341c78f2d002d8fb21a62569b2a)
+        ;
+
+        
+    
+    
+                marker_5687aa002122c3c88951d9a30de38546.setIcon(icon_577098b95cc5b38cc461951277f1f08c);
+            
+    
+            var marker_7685348eade5cca36ff35407bd3ef9d2 = L.marker(
+                [10.801706770065, 106.73289],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_1fdc87b957c304f8e7b45208fa830fc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a0e29db11eccc10e34eae58e21345ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aae2b1c10f96ec011d19e69c6c129f7a = $(`<div id="html_aae2b1c10f96ec011d19e69c6c129f7a" style="width: 100.0%; height: 100.0%;">Thảo Điền Pearl</div>`)[0];
+                popup_9a0e29db11eccc10e34eae58e21345ff.setContent(html_aae2b1c10f96ec011d19e69c6c129f7a);
+            
+        
+
+        marker_7685348eade5cca36ff35407bd3ef9d2.bindPopup(popup_9a0e29db11eccc10e34eae58e21345ff)
+        ;
+
+        
+    
+    
+                marker_7685348eade5cca36ff35407bd3ef9d2.setIcon(icon_1fdc87b957c304f8e7b45208fa830fc9);
+            
+    
+            var marker_17382fb04a235a2d7331b3a98e6a6c8d = L.marker(
+                [10.7744672346781, 106.76234],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_fa4c86ed0f14b3da7bd72f531cd9f448 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a46680e99d71770c2070c805d2fee8f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f36e0cc3419d5a6d414ba4311dd221b2 = $(`<div id="html_f36e0cc3419d5a6d414ba4311dd221b2" style="width: 100.0%; height: 100.0%;">Khu vui chơi Tuyết Snow Town Sài Gòn</div>`)[0];
+                popup_a46680e99d71770c2070c805d2fee8f9.setContent(html_f36e0cc3419d5a6d414ba4311dd221b2);
+            
+        
+
+        marker_17382fb04a235a2d7331b3a98e6a6c8d.bindPopup(popup_a46680e99d71770c2070c805d2fee8f9)
+        ;
+
+        
+    
+    
+                marker_17382fb04a235a2d7331b3a98e6a6c8d.setIcon(icon_fa4c86ed0f14b3da7bd72f531cd9f448);
+            
+    
+            var marker_a0528a5d6954514e50c35c15888f8170 = L.marker(
+                [10.7298986051117, 106.72371],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_e7bd9b9bee7f532e54a12dde5e5879f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc94a80c88bf6ba976d4c145ae8ecdbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d57e105ecb76fb67a4819c20e12475f = $(`<div id="html_1d57e105ecb76fb67a4819c20e12475f" style="width: 100.0%; height: 100.0%;">VINAMILK Tower</div>`)[0];
+                popup_cc94a80c88bf6ba976d4c145ae8ecdbf.setContent(html_1d57e105ecb76fb67a4819c20e12475f);
+            
+        
+
+        marker_a0528a5d6954514e50c35c15888f8170.bindPopup(popup_cc94a80c88bf6ba976d4c145ae8ecdbf)
+        ;
+
+        
+    
+    
+                marker_a0528a5d6954514e50c35c15888f8170.setIcon(icon_e7bd9b9bee7f532e54a12dde5e5879f6);
+            
+    
+            var marker_0e91fcd28021dc43b8b6c86e3a815460 = L.marker(
+                [10.72863044051, 106.71856],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_b10b19402045a30d9f077f765322f82a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c4af65f0fd5ad588fe69b7f5a0dab72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a96203a23664bfdd9d22d712c3023a22 = $(`<div id="html_a96203a23664bfdd9d22d712c3023a22" style="width: 100.0%; height: 100.0%;">Crescent Mall 101 Tôn Dật Tiên, Tân Phú, Quận 7</div>`)[0];
+                popup_1c4af65f0fd5ad588fe69b7f5a0dab72.setContent(html_a96203a23664bfdd9d22d712c3023a22);
+            
+        
+
+        marker_0e91fcd28021dc43b8b6c86e3a815460.bindPopup(popup_1c4af65f0fd5ad588fe69b7f5a0dab72)
+        ;
+
+        
+    
+    
+                marker_0e91fcd28021dc43b8b6c86e3a815460.setIcon(icon_b10b19402045a30d9f077f765322f82a);
+            
+    
+            var marker_8cb375e3f2abf2974077ac00f2f2644b = L.marker(
+                [10.7467313878442, 106.70244],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_270a85c5c1d5aa9c441a6729dd65a8c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_386d37697972efa55e44a6f4e9cc6dff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3fc6b7d785226f1162898d874d7707e = $(`<div id="html_e3fc6b7d785226f1162898d874d7707e" style="width: 100.0%; height: 100.0%;">LOTTE Mart Quận 7</div>`)[0];
+                popup_386d37697972efa55e44a6f4e9cc6dff.setContent(html_e3fc6b7d785226f1162898d874d7707e);
+            
+        
+
+        marker_8cb375e3f2abf2974077ac00f2f2644b.bindPopup(popup_386d37697972efa55e44a6f4e9cc6dff)
+        ;
+
+        
+    
+    
+                marker_8cb375e3f2abf2974077ac00f2f2644b.setIcon(icon_270a85c5c1d5aa9c441a6729dd65a8c1);
+            
+    
+            var marker_1928f6df2166419256dad02dd4f3c9a7 = L.marker(
+                [10.7100555510969, 106.69252],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_8b6d968cfc7304071641af7c9268ed10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec7ab02261a0d8b335001845fc0b7f26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe7baf077c4f05d65195f630b3f927e4 = $(`<div id="html_fe7baf077c4f05d65195f630b3f927e4" style="width: 100.0%; height: 100.0%;">Khu Dân Cư Đào Sư Tích</div>`)[0];
+                popup_ec7ab02261a0d8b335001845fc0b7f26.setContent(html_fe7baf077c4f05d65195f630b3f927e4);
+            
+        
+
+        marker_1928f6df2166419256dad02dd4f3c9a7.bindPopup(popup_ec7ab02261a0d8b335001845fc0b7f26)
+        ;
+
+        
+    
+    
+                marker_1928f6df2166419256dad02dd4f3c9a7.setIcon(icon_8b6d968cfc7304071641af7c9268ed10);
+            
+    
+            var marker_b6812eb2c6c29c7ea2c3f0e1299d193f = L.marker(
+                [10.7504697203261, 106.6509],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_1db747b497e4f8768723185ae15e5fd6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1bad742a19066fa4462559b4a3934f56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54562add0cb2e4204b8a6da3dd80435a = $(`<div id="html_54562add0cb2e4204b8a6da3dd80435a" style="width: 100.0%; height: 100.0%;">Chợ Bình Tây 57A Tháp Mười, Phường 2, Quận 6</div>`)[0];
+                popup_1bad742a19066fa4462559b4a3934f56.setContent(html_54562add0cb2e4204b8a6da3dd80435a);
+            
+        
+
+        marker_b6812eb2c6c29c7ea2c3f0e1299d193f.bindPopup(popup_1bad742a19066fa4462559b4a3934f56)
+        ;
+
+        
+    
+    
+                marker_b6812eb2c6c29c7ea2c3f0e1299d193f.setIcon(icon_1db747b497e4f8768723185ae15e5fd6);
+            
+    
+            var marker_a05bca9e5c359801060eadbda66d9918 = L.marker(
+                [10.6334032164913, 106.65751],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_48850bc987e97ec42458d1d505889adc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6019aaef09b3be45a890615138a88b59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_168a86878a2e502049fe267612dbcd77 = $(`<div id="html_168a86878a2e502049fe267612dbcd77" style="width: 100.0%; height: 100.0%;">Trường Đại học Y dược Thành phố Hồ Chí Minh 217 Đ. Hồng Bàng, Phường 11, Quận 5</div>`)[0];
+                popup_6019aaef09b3be45a890615138a88b59.setContent(html_168a86878a2e502049fe267612dbcd77);
+            
+        
+
+        marker_a05bca9e5c359801060eadbda66d9918.bindPopup(popup_6019aaef09b3be45a890615138a88b59)
+        ;
+
+        
+    
+    
+                marker_a05bca9e5c359801060eadbda66d9918.setIcon(icon_48850bc987e97ec42458d1d505889adc);
+            
+    
+            var marker_6cf30107a08d25748675fd7b4b7fff1c = L.marker(
+                [10.7557042888998, 106.59338],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_45b2c9794744facfeedd6a54a5dc0fff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_029fbe7c8938805af7a72ba46c73d2e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0c8c2b28d339b27aaf369b433f7cd9b = $(`<div id="html_e0c8c2b28d339b27aaf369b433f7cd9b" style="width: 100.0%; height: 100.0%;">Bệnh Viện Đa Khoa Quốc Ánh</div>`)[0];
+                popup_029fbe7c8938805af7a72ba46c73d2e7.setContent(html_e0c8c2b28d339b27aaf369b433f7cd9b);
+            
+        
+
+        marker_6cf30107a08d25748675fd7b4b7fff1c.bindPopup(popup_029fbe7c8938805af7a72ba46c73d2e7)
+        ;
+
+        
+    
+    
+                marker_6cf30107a08d25748675fd7b4b7fff1c.setIcon(icon_45b2c9794744facfeedd6a54a5dc0fff);
+            
+    
+            var marker_40cdc5ca261b6899b65e5894648b7381 = L.marker(
+                [10.8016408609619, 106.61754],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_267b43342b46c9b8825e719e55221f2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1921c1f7da3dd60ed74b49b6408c7c05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81a800b142ecbe12ddeaf38eaad4d517 = $(`<div id="html_81a800b142ecbe12ddeaf38eaad4d517" style="width: 100.0%; height: 100.0%;">AEMON Tân Phú</div>`)[0];
+                popup_1921c1f7da3dd60ed74b49b6408c7c05.setContent(html_81a800b142ecbe12ddeaf38eaad4d517);
+            
+        
+
+        marker_40cdc5ca261b6899b65e5894648b7381.bindPopup(popup_1921c1f7da3dd60ed74b49b6408c7c05)
+        ;
+
+        
+    
+    
+                marker_40cdc5ca261b6899b65e5894648b7381.setIcon(icon_267b43342b46c9b8825e719e55221f2b);
+            
+    
+            var marker_059f19e552ff3bcbc5fc3ab817843fdd = L.marker(
+                [10.8343292150592, 106.54335],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_0e45e8208275136f6517ccfcec5b3b1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9a622d44947085733d23255e111efc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bbee7b06c26a1b40d25e0ee56182986 = $(`<div id="html_9bbee7b06c26a1b40d25e0ee56182986" style="width: 100.0%; height: 100.0%;">Hồ Câu Giải Trí Đồng Bưng</div>`)[0];
+                popup_f9a622d44947085733d23255e111efc6.setContent(html_9bbee7b06c26a1b40d25e0ee56182986);
+            
+        
+
+        marker_059f19e552ff3bcbc5fc3ab817843fdd.bindPopup(popup_f9a622d44947085733d23255e111efc6)
+        ;
+
+        
+    
+    
+                marker_059f19e552ff3bcbc5fc3ab817843fdd.setIcon(icon_0e45e8208275136f6517ccfcec5b3b1c);
+            
+    
+            var marker_140f922c2c6d357659a895752ac32619 = L.marker(
+                [10.8347146854726, 106.56539],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_b5b989cd6aee75abc334a9effd74b842 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13d780994b6d58cfb6e36424116a2dc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_996d5189eb325655b2ff31b44ad98eec = $(`<div id="html_996d5189eb325655b2ff31b44ad98eec" style="width: 100.0%; height: 100.0%;">Chợ Vĩnh Lộc A</div>`)[0];
+                popup_13d780994b6d58cfb6e36424116a2dc0.setContent(html_996d5189eb325655b2ff31b44ad98eec);
+            
+        
+
+        marker_140f922c2c6d357659a895752ac32619.bindPopup(popup_13d780994b6d58cfb6e36424116a2dc0)
+        ;
+
+        
+    
+    
+                marker_140f922c2c6d357659a895752ac32619.setIcon(icon_b5b989cd6aee75abc334a9effd74b842);
+            
+    
+            var marker_76336975c74f49f580ff1f6be679f5be = L.marker(
+                [10.7467185560709, 106.53762],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_481de1a2120d74a651c70a9d3435a69b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c97f3ccdd7ce684fc484f3ce35d18be4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e9142715ce715632b7779c5519f1c72 = $(`<div id="html_9e9142715ce715632b7779c5519f1c72" style="width: 100.0%; height: 100.0%;">Chợ KCN Lê Minh Xuân</div>`)[0];
+                popup_c97f3ccdd7ce684fc484f3ce35d18be4.setContent(html_9e9142715ce715632b7779c5519f1c72);
+            
+        
+
+        marker_76336975c74f49f580ff1f6be679f5be.bindPopup(popup_c97f3ccdd7ce684fc484f3ce35d18be4)
+        ;
+
+        
+    
+    
+                marker_76336975c74f49f580ff1f6be679f5be.setIcon(icon_481de1a2120d74a651c70a9d3435a69b);
+            
+    
+            var marker_18e323d42e33a1eb2df607cad856c047 = L.marker(
+                [10.7538995633865, 106.48156],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_4531f01cce93d991d4daf430e14f7021 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08f39a8a89a7ee3c4e106060c515f843 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcd02dc706ae7db785b475daf9a24330 = $(`<div id="html_fcd02dc706ae7db785b475daf9a24330" style="width: 100.0%; height: 100.0%;">Trạm Y Tế Xã Bình Lợi Huyện Bình Chánh</div>`)[0];
+                popup_08f39a8a89a7ee3c4e106060c515f843.setContent(html_fcd02dc706ae7db785b475daf9a24330);
+            
+        
+
+        marker_18e323d42e33a1eb2df607cad856c047.bindPopup(popup_08f39a8a89a7ee3c4e106060c515f843)
+        ;
+
+        
+    
+    
+                marker_18e323d42e33a1eb2df607cad856c047.setIcon(icon_4531f01cce93d991d4daf430e14f7021);
+            
+    
+            var marker_c950538452588124a208cdda84d5eeab = L.marker(
+                [10.7231209708906, 106.53587],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_e692cf65743147f8103bb93c0f72ea78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be49a44fb6dae5c6da8b055fce05a8d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4029d4b4d0389fa97c88099342096a7 = $(`<div id="html_d4029d4b4d0389fa97c88099342096a7" style="width: 100.0%; height: 100.0%;">Khu di tích Láng Le Bàu Cò</div>`)[0];
+                popup_be49a44fb6dae5c6da8b055fce05a8d8.setContent(html_d4029d4b4d0389fa97c88099342096a7);
+            
+        
+
+        marker_c950538452588124a208cdda84d5eeab.bindPopup(popup_be49a44fb6dae5c6da8b055fce05a8d8)
+        ;
+
+        
+    
+    
+                marker_c950538452588124a208cdda84d5eeab.setIcon(icon_e692cf65743147f8103bb93c0f72ea78);
+            
+    
+            var marker_57cfcbc069788d19c19adeb8e849a504 = L.marker(
+                [10.7114949735128, 106.57478],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_41ee1424f9a30423aa629b822bf67ec1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_904fb38e5d287bd743ae957c81a9ba1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf3d86d5f9e959edccba116d7a3a18f7 = $(`<div id="html_bf3d86d5f9e959edccba116d7a3a18f7" style="width: 100.0%; height: 100.0%;">Bệnh viện Nhi Đồng Thành Phố</div>`)[0];
+                popup_904fb38e5d287bd743ae957c81a9ba1f.setContent(html_bf3d86d5f9e959edccba116d7a3a18f7);
+            
+        
+
+        marker_57cfcbc069788d19c19adeb8e849a504.bindPopup(popup_904fb38e5d287bd743ae957c81a9ba1f)
+        ;
+
+        
+    
+    
+                marker_57cfcbc069788d19c19adeb8e849a504.setIcon(icon_41ee1424f9a30423aa629b822bf67ec1);
+            
+    
+            var marker_e77cf566c37643a3679a67c1857dca7b = L.marker(
+                [10.6585243155726, 106.60772],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_c04d9a8ee2beb61017d2d5adfc2701eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f01357ce2d58ad5eabb87078b9bb1a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6346ffb47e0d91fb98c86d3f7613a877 = $(`<div id="html_6346ffb47e0d91fb98c86d3f7613a877" style="width: 100.0%; height: 100.0%;">Ngã tư Hưng Long</div>`)[0];
+                popup_3f01357ce2d58ad5eabb87078b9bb1a8.setContent(html_6346ffb47e0d91fb98c86d3f7613a877);
+            
+        
+
+        marker_e77cf566c37643a3679a67c1857dca7b.bindPopup(popup_3f01357ce2d58ad5eabb87078b9bb1a8)
+        ;
+
+        
+    
+    
+                marker_e77cf566c37643a3679a67c1857dca7b.setIcon(icon_c04d9a8ee2beb61017d2d5adfc2701eb);
+            
+    
+            var marker_25c02c863b72238d3a7c7dde8fd9e985 = L.marker(
+                [10.6896874653267, 106.64343],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_d7ce43476c70958f5190cbbf9f47a8b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ffb84f63dd41784a7b2d2016b37e7b44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_623d5ad779e11a1221ccbf5278f9cb92 = $(`<div id="html_623d5ad779e11a1221ccbf5278f9cb92" style="width: 100.0%; height: 100.0%;">Lovera Park Khang Điền</div>`)[0];
+                popup_ffb84f63dd41784a7b2d2016b37e7b44.setContent(html_623d5ad779e11a1221ccbf5278f9cb92);
+            
+        
+
+        marker_25c02c863b72238d3a7c7dde8fd9e985.bindPopup(popup_ffb84f63dd41784a7b2d2016b37e7b44)
+        ;
+
+        
+    
+    
+                marker_25c02c863b72238d3a7c7dde8fd9e985.setIcon(icon_d7ce43476c70958f5190cbbf9f47a8b4);
+            
+    
+            var marker_eef144345d548fd95645e359c8b7a37e = L.marker(
+                [10.7086072240507, 106.62092],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_013b5f18a65b6ad89c3d1029bea43a60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_64193d49fdb4fcf643cd2aceef2c6f2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b0300a6fe014eb89f747629e1e6a2b5 = $(`<div id="html_9b0300a6fe014eb89f747629e1e6a2b5" style="width: 100.0%; height: 100.0%;">Công Ty Tnhh Cơ Khí Bao Bì Quốc Cường</div>`)[0];
+                popup_64193d49fdb4fcf643cd2aceef2c6f2a.setContent(html_9b0300a6fe014eb89f747629e1e6a2b5);
+            
+        
+
+        marker_eef144345d548fd95645e359c8b7a37e.bindPopup(popup_64193d49fdb4fcf643cd2aceef2c6f2a)
+        ;
+
+        
+    
+    
+                marker_eef144345d548fd95645e359c8b7a37e.setIcon(icon_013b5f18a65b6ad89c3d1029bea43a60);
+            
+    
+            var marker_ce552f6734620af6709416ef3ebf7e53 = L.marker(
+                [10.7193912578245, 106.63564],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_90ca7d610e7e1cc442d2b2d8f4ab4e5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67740413a8d66e55fca38d719a6a0559 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f67769bc85348b5c4004c8b9092cdfb4 = $(`<div id="html_f67769bc85348b5c4004c8b9092cdfb4" style="width: 100.0%; height: 100.0%;">UEH - Cơ sở N</div>`)[0];
+                popup_67740413a8d66e55fca38d719a6a0559.setContent(html_f67769bc85348b5c4004c8b9092cdfb4);
+            
+        
+
+        marker_ce552f6734620af6709416ef3ebf7e53.bindPopup(popup_67740413a8d66e55fca38d719a6a0559)
+        ;
+
+        
+    
+    
+                marker_ce552f6734620af6709416ef3ebf7e53.setIcon(icon_90ca7d610e7e1cc442d2b2d8f4ab4e5b);
+            
+    
+            var marker_6a8b89162618322684e5e375ad0afe92 = L.marker(
+                [10.7414672912453, 106.6864],
+                {
+}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var icon_de0de1c193ab2e22401e13b0bb2c35f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a8075402215e02faf713bdae984bedf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdf5099e673b73f4d131d8cfaa2bee36 = $(`<div id="html_bdf5099e673b73f4d131d8cfaa2bee36" style="width: 100.0%; height: 100.0%;">Bệnh viện Phục hồi chức năng - Điều trị bệnh nghề nghiệp</div>`)[0];
+                popup_6a8075402215e02faf713bdae984bedf.setContent(html_bdf5099e673b73f4d131d8cfaa2bee36);
+            
+        
+
+        marker_6a8b89162618322684e5e375ad0afe92.bindPopup(popup_6a8075402215e02faf713bdae984bedf)
+        ;
+
+        
+    
+    
+                marker_6a8b89162618322684e5e375ad0afe92.setIcon(icon_de0de1c193ab2e22401e13b0bb2c35f1);
+            
+    
+            var poly_line_a0d66613a6efa9a7c54f046862fd8843 = L.polyline(
+                [[10.7613700421297, 106.66834], [10.8170712, 106.6608354], [10.8307172982182, 106.67299], [10.8504326716799, 106.65294], [10.8593785221043, 106.70492], [10.8433082002047, 106.71186], [10.8282805591494, 106.71395], [10.8016985059417, 106.69881], [10.7810096897944, 106.69456], [10.801706770065, 106.73289], [10.7744672346781, 106.76234], [10.7298986051117, 106.72371], [10.72863044051, 106.71856], [10.7467313878442, 106.70244], [10.7100555510969, 106.69252], [10.7504697203261, 106.6509], [10.6334032164913, 106.65751], [10.7557042888998, 106.59338], [10.8016408609619, 106.61754], [10.8343292150592, 106.54335], [10.8347146854726, 106.56539], [10.7467185560709, 106.53762], [10.7538995633865, 106.48156], [10.7231209708906, 106.53587], [10.7114949735128, 106.57478], [10.6585243155726, 106.60772], [10.6896874653267, 106.64343], [10.7086072240507, 106.62092], [10.7193912578245, 106.63564], [10.7414672912453, 106.6864]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+    
+            var poly_line_62ed3c7d3dafa36a768effe80c184db3 = L.polyline(
+                [[10.7613700421297, 106.66834], [10.7414672912453, 106.6864]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_8c5c8cad87aa771038bdd76aa6d93c88);
+        
+</script>
+</html>
